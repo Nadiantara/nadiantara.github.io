@@ -6,14 +6,20 @@
 
 <div class="row">
   <div class="col-12">
-    <ul class="list-group">
-      {{ range .Data.Pages }}
-      <li class="list-group-item d-flex justify-content-between align-items-center">
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
-        <span class="badge bg-primary rounded-pill">{{ len .Pages }}</span>
-      </li>
-      {{ end }}
-    </ul>
+    {{ if gt (len .Data.Pages) 0 }}
+      <ul class="list-group">
+        {{ range .Data.Pages }}
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+          <span class="badge bg-primary rounded-pill">{{ len .Pages }}</span>
+        </li>
+        {{ end }}
+      </ul>
+    {{ else }}
+      <div class="alert alert-info">
+        <p>{{ i18n "noPostsYet" }}</p>
+      </div>
+    {{ end }}
   </div>
 </div>
 

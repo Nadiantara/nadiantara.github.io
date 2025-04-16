@@ -8,22 +8,29 @@
   <h2>{{ i18n "latestPosts" }}</h2>
   <hr>
 
-  {{ range first 10 (where site.RegularPages "Type" "posts") }}
-  <div class="blog-post-item">
-    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-    <p class="text-muted">{{ i18n "publishedOn" }} {{ .Date.Format "January 2, 2006" }}</p>
-    <p>{{ .Summary }}</p>
-    
-    {{ if .Params.tags }}
-    <div class="tag-list">
-      {{ range .Params.tags }}
-      <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="badge bg-secondary">{{ . }}</a>
+  {{ $posts := where site.RegularPages "Type" "posts" }}
+  {{ if gt (len $posts) 0 }}
+    {{ range first 10 $posts }}
+    <div class="blog-post-item">
+      <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+      <p class="text-muted">{{ i18n "publishedOn" }} {{ .Date.Format "January 2, 2006" }}</p>
+      <p>{{ .Summary }}</p>
+      
+      {{ if .Params.tags }}
+      <div class="tag-list">
+        {{ range .Params.tags }}
+        <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="badge bg-secondary">{{ . }}</a>
+        {{ end }}
+      </div>
       {{ end }}
+      
+      <a href="{{ .Permalink }}" class="btn btn-sm btn-outline-primary mt-2">{{ i18n "readMore" }}</a>
     </div>
     {{ end }}
-    
-    <a href="{{ .Permalink }}" class="btn btn-sm btn-outline-primary mt-2">{{ i18n "readMore" }}</a>
-  </div>
+  {{ else }}
+    <div class="alert alert-info">
+      <p>{{ i18n "noPostsYet" }}</p>
+    </div>
   {{ end }}
 </section>
 {{ end }}
