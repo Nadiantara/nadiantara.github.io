@@ -2,7 +2,8 @@ baseURL = 'https://nadiantara.github.io/'
 defaultContentLanguage = 'id'
 defaultContentLanguageInSubdir = true
 theme = 'limitsmatriks'
-publishDir = "docs"
+publishDir = "."
+cleanDestinationDir = false
 
 # Enable generating aliases for multilingual content
 disableAliases = false
