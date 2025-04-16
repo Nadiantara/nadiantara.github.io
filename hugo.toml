@@ -27,7 +27,7 @@ enableRobotsTXT = true
         weight = 1
       [[languages.id.menu.main]]
         name = "Tags"
-        url = "/tags/"
+        url = "/id/tags/"
         weight = 2
 
   [languages.en]
@@ -45,7 +45,7 @@ enableRobotsTXT = true
         weight = 1
       [[languages.en.menu.main]]
         name = "Tags"
-        url = "/tags/"
+        url = "/en/tags/"
         weight = 2
 
 [params]
