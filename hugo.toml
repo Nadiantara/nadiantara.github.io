@@ -1,0 +1,48 @@
+baseURL = 'https://nadiantara.github.io/'
+defaultContentLanguage = 'id'
+defaultContentLanguageInSubdir = true
+theme = 'limitsmatriks'
+
+[languages]
+  [languages.id]
+    languageName = 'Bahasa Indonesia'
+    title = 'Limit & Matriks'
+    weight = 1
+    contentDir = 'content/id'
+    [languages.id.params]
+      description = "Mengeksplorasi topik-topik menarik dalam matematika dan sains"
+      
+    [languages.id.menu]
+      [[languages.id.menu.main]]
+        name = "Beranda"
+        url = "/"
+        weight = 1
+      [[languages.id.menu.main]]
+        name = "Tags"
+        url = "/tags/"
+        weight = 2
+
+  [languages.en]
+    languageName = 'English'
+    title = 'Limits & Matrices'
+    weight = 2
+    contentDir = 'content/en'
+    [languages.en.params]
+      description = "Exploring fascinating topics in mathematics and science"
+      
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+      [[languages.en.menu.main]]
+        name = "Tags"
+        url = "/tags/"
+        weight = 2
+
+[params]
+  author = "Your Name"
+  
+[taxonomies]
+  tag = "tags"
+  category = "categories"

@@ -1,0 +1,29 @@
+{{ define "main" }}
+<header class="mb-4">
+  <h1>{{ i18n "welcomeToSite" }}</h1>
+  <p class="lead">{{ site.Params.description }}</p>
+</header>
+
+<section id="blog-posts">
+  <h2>{{ i18n "latestPosts" }}</h2>
+  <hr>
+
+  {{ range first 10 (where site.RegularPages "Type" "posts") }}
+  <div class="blog-post-item">
+    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+    <p class="text-muted">{{ i18n "publishedOn" }} {{ .Date.Format "January 2, 2006" }}</p>
+    <p>{{ .Summary }}</p>
+    
+    {{ if .Params.tags }}
+    <div class="tag-list">
+      {{ range .Params.tags }}
+      <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="badge bg-secondary">{{ . }}</a>
+      {{ end }}
+    </div>
+    {{ end }}
+    
+    <a href="{{ .Permalink }}" class="btn btn-sm btn-outline-primary mt-2">{{ i18n "readMore" }}</a>
+  </div>
+  {{ end }}
+</section>
+{{ end }}

@@ -1,0 +1,29 @@
+[welcomeToSite]
+other = "Selamat Datang di Limit & Matriks"
+
+[latestPosts]
+other = "Postingan Terbaru"
+
+[publishedOn]
+other = "Dipublikasikan pada"
+
+[by]
+other = "oleh"
+
+[readMore]
+other = "Baca Selengkapnya"
+
+[tags]
+other = "Tag"
+
+[backToHome]
+other = "Kembali ke Beranda"
+
+[postsTaggedWith]
+other = "Postingan dengan tag"
+
+[postsInCategory]
+other = "Postingan dalam kategori"
+
+[browsePostsByTag]
+other = "Jelajahi postingan berdasarkan tag" 

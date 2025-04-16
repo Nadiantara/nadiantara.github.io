@@ -1,0 +1,29 @@
+[welcomeToSite]
+other = "Welcome to Limits & Matrices"
+
+[latestPosts]
+other = "Latest Posts"
+
+[publishedOn]
+other = "Published on"
+
+[by]
+other = "by"
+
+[readMore]
+other = "Read More"
+
+[tags]
+other = "Tags"
+
+[backToHome]
+other = "Back to Home"
+
+[postsTaggedWith]
+other = "Posts tagged with"
+
+[postsInCategory]
+other = "Posts in category"
+
+[browsePostsByTag]
+other = "Browse posts by tag" 

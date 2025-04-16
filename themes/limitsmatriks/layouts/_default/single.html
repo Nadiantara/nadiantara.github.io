@@ -1,0 +1,27 @@
+{{ define "main" }}
+<div class="row">
+  <div class="col-lg-8 offset-lg-2">
+    <header class="mb-4">
+      <h1>{{ .Title }}</h1>
+      <p class="text-muted">{{ i18n "publishedOn" }} {{ .Date.Format "January 2, 2006" }} 
+        {{ with .Params.author }}{{ i18n "by" }} {{ . }}{{ end }}</p>
+        
+      {{ if .Params.tags }}
+      <div class="tag-list">
+        <strong>{{ i18n "tags" }}:</strong>
+        {{ range .Params.tags }}
+        <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="badge bg-secondary">{{ . }}</a>
+        {{ end }}
+      </div>
+      {{ end }}
+    </header>
+
+    <article>
+      {{ .Content }}
+    </article>
+
+    <hr>
+    <a href="{{ .Site.BaseURL }}">&larr; {{ i18n "backToHome" }}</a>
+  </div>
+</div>
+{{ end }}
