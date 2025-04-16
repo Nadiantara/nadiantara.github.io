@@ -3,6 +3,12 @@ defaultContentLanguage = 'id'
 defaultContentLanguageInSubdir = true
 theme = 'limitsmatriks'
 
+# Enable generating aliases for multilingual content
+disableAliases = false
+
+# Ensure we're generating robots.txt
+enableRobotsTXT = true
+
 [languages]
   [languages.id]
     languageName = 'Bahasa Indonesia'
@@ -46,3 +52,16 @@ theme = 'limitsmatriks'
 [taxonomies]
   tag = "tags"
   category = "categories"
+
+# Make sure there's an explicit redirect for the English version
+[outputFormats.REDIR]
+mediatype = "text/html"
+baseName = "redirect"
+isPlainText = true
+notAlternative = true
+
+[outputs]
+home = ["HTML", "RSS", "REDIR"]
+section = ["HTML", "RSS"]
+taxonomy = ["HTML", "RSS"]
+term = ["HTML", "RSS"]
