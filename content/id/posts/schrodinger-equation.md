@@ -3,7 +3,7 @@ title: "Memahami Persamaan Schrödinger"
 date: 2025-04-12T00:00:00-00:00
 draft: false
 tags: ["mekanika kuantum", "fisika", "matematika"]
-author: "Your Name"
+author: "Nadiantara"
 summary: "Pengantar singkat tentang persamaan fundamental mekanika kuantum."
 ---
 

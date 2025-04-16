@@ -3,7 +3,7 @@ title: "The Beauty of Euler's Identity"
 date: 2025-04-10T00:00:00-00:00
 draft: false
 tags: ["mathematics", "euler", "complex numbers"]
-author: "Your Name"
+author: "Nadiantara"
 summary: "Exploring the famous equation e^{iπ} + 1 = 0 and its significance."
 ---
 

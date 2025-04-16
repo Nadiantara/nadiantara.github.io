@@ -1,0 +1,42 @@
+name: Hugo Build and Deploy
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.119.0'
+          extended: true
+
+      - name: Build with Hugo
+        run: |
+          # Clean directories first
+          rm -rf en id js css tags categories public docs
+          # Build with Hugo directly to the repository root
+          hugo --minify
+          # Create .nojekyll file
+          touch .nojekyll
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "github-actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add .
+          git commit -m "Build site with Hugo" || echo "No changes to commit"
+          git push origin master || echo "No changes to push" 

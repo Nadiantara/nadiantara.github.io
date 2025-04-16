@@ -3,7 +3,7 @@ title: "Keindahan Identitas Euler"
 date: 2025-04-10T00:00:00-00:00
 draft: false
 tags: ["matematika", "euler", "bilangan kompleks"]
-author: "Your Name"
+author: "Nadiantara"
 summary: "Mengeksplorasi persamaan terkenal e^{iπ} + 1 = 0 dan signifikansinya."
 ---
 

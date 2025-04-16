@@ -3,7 +3,7 @@ title: "Understanding Schrödinger's Equation"
 date: 2025-04-12T00:00:00-00:00
 draft: false
 tags: ["quantum mechanics", "physics", "mathematics"]
-author: "Your Name"
+author: "Nadiantara"
 summary: "A brief introduction to the fundamental equation of quantum mechanics."
 ---
 

@@ -3,7 +3,7 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: false
 tags: []
-author: "Your Name"
+author: "Nadiantara"
 summary: ""
 ---
 

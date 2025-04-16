@@ -49,7 +49,7 @@ enableRobotsTXT = true
         weight = 2
 
 [params]
-  author = "Your Name"
+  author = "Nadiantara"
   
 [taxonomies]
   tag = "tags"
