@@ -55,9 +55,9 @@ enableRobotsTXT = true
   [params.giscus]
     enable = true
     repo = "nadiantara/nadiantara.github.io"
-    repoId = "YOUR_REPO_ID"  # Get this from giscus.app
-    category = "General"
-    categoryId = "YOUR_CATEGORY_ID"  # Get this from giscus.app
+    repoId = "R_kgDOOYfFiA"
+    category = "Q&A"
+    categoryId = "DIC_kwDOOYfFiM4CrdBj"
     mapping = "pathname"
     strict = "0"
     reactionsEnabled = "1"

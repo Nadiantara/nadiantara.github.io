@@ -1,1 +1,68 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on Limit &amp; Matriks</title><link>https://nadiantara.github.io/id/tags/</link><description>Recent content in Tags on Limit &amp; Matriks</description><generator>Hugo -- gohugo.io</generator><language>id</language><lastBuildDate>Sat, 12 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://nadiantara.github.io/id/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>fisika</title><link>https://nadiantara.github.io/id/tags/fisika/</link><pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate><guid>https://nadiantara.github.io/id/tags/fisika/</guid><description/></item><item><title>matematika</title><link>https://nadiantara.github.io/id/tags/matematika/</link><pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate><guid>https://nadiantara.github.io/id/tags/matematika/</guid><description/></item><item><title>mekanika kuantum</title><link>https://nadiantara.github.io/id/tags/mekanika-kuantum/</link><pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate><guid>https://nadiantara.github.io/id/tags/mekanika-kuantum/</guid><description/></item><item><title>bilangan kompleks</title><link>https://nadiantara.github.io/id/tags/bilangan-kompleks/</link><pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><guid>https://nadiantara.github.io/id/tags/bilangan-kompleks/</guid><description/></item><item><title>euler</title><link>https://nadiantara.github.io/id/tags/euler/</link><pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><guid>https://nadiantara.github.io/id/tags/euler/</guid><description/></item><item><title>blue</title><link>https://nadiantara.github.io/id/tags/blue/</link><pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate><guid>https://nadiantara.github.io/id/tags/blue/</guid><description/></item><item><title>green</title><link>https://nadiantara.github.io/id/tags/green/</link><pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate><guid>https://nadiantara.github.io/id/tags/green/</guid><description/></item><item><title>red</title><link>https://nadiantara.github.io/id/tags/red/</link><pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate><guid>https://nadiantara.github.io/id/tags/red/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Limit &amp; Matriks</title>
+    <link>http://localhost:1313/id/tags/</link>
+    <description>Recent content in Tags on Limit &amp; Matriks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <lastBuildDate>Sat, 12 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/id/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fisika</title>
+      <link>http://localhost:1313/id/tags/fisika/</link>
+      <pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/id/tags/fisika/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Matematika</title>
+      <link>http://localhost:1313/id/tags/matematika/</link>
+      <pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/id/tags/matematika/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mekanika Kuantum</title>
+      <link>http://localhost:1313/id/tags/mekanika-kuantum/</link>
+      <pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/id/tags/mekanika-kuantum/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bilangan Kompleks</title>
+      <link>http://localhost:1313/id/tags/bilangan-kompleks/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/id/tags/bilangan-kompleks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Euler</title>
+      <link>http://localhost:1313/id/tags/euler/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/id/tags/euler/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blue</title>
+      <link>http://localhost:1313/id/tags/blue/</link>
+      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/id/tags/blue/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Green</title>
+      <link>http://localhost:1313/id/tags/green/</link>
+      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/id/tags/green/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Red</title>
+      <link>http://localhost:1313/id/tags/red/</link>
+      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/id/tags/red/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
