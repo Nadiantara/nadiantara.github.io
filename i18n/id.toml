@@ -29,4 +29,7 @@ other = "Postingan dalam kategori"
 other = "Jelajahi postingan berdasarkan tag"
 
 [noPostsYet]
-other = "Belum ada postingan tersedia. Kembali lagi nanti untuk konten menarik tentang matematika dan sains!" 
+other = "Belum ada postingan tersedia. Kembali lagi nanti untuk konten menarik tentang matematika dan sains!"
+
+[comments]
+other = "Komentar" 

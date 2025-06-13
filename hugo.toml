@@ -51,6 +51,21 @@ enableRobotsTXT = true
 [params]
   author = "Nadiantara"
   
+  # Giscus Comments Configuration
+  [params.giscus]
+    enable = true
+    repo = "nadiantara/nadiantara.github.io"
+    repoId = "YOUR_REPO_ID"  # Get this from giscus.app
+    category = "General"
+    categoryId = "YOUR_CATEGORY_ID"  # Get this from giscus.app
+    mapping = "pathname"
+    strict = "0"
+    reactionsEnabled = "1"
+    emitMetadata = "0"
+    inputPosition = "bottom"
+    theme = "preferred_color_scheme"
+    loading = "lazy"
+  
 [taxonomies]
   tag = "tags"
   category = "categories"

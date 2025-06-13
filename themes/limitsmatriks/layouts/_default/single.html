@@ -20,6 +20,8 @@
       {{ .Content }}
     </article>
 
+    {{ partial "giscus.html" . }}
+
     <hr>
     <a href="{{ .Site.BaseURL }}">&larr; {{ i18n "backToHome" }}</a>
   </div>

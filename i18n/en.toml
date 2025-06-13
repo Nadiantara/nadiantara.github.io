@@ -29,4 +29,7 @@ other = "Posts in category"
 other = "Browse posts by tag"
 
 [noPostsYet]
-other = "No posts available yet. Check back soon for exciting content about mathematics and science!" 
+other = "No posts available yet. Check back soon for exciting content about mathematics and science!"
+
+[comments]
+other = "Comments" 
