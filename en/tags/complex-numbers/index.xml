@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Complex Numbers on Limits &amp; Matrices</title>
-    <link>http://localhost:1313/en/tags/complex-numbers/</link>
+    <link>https://nadiantara.github.io/en/tags/complex-numbers/</link>
     <description>Recent content in Complex Numbers on Limits &amp; Matrices</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/tags/complex-numbers/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nadiantara.github.io/en/tags/complex-numbers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Beauty of Euler&#39;s Identity</title>
-      <link>http://localhost:1313/en/posts/euler-identity/</link>
+      <link>https://nadiantara.github.io/en/posts/euler-identity/</link>
       <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/euler-identity/</guid>
+      <guid>https://nadiantara.github.io/en/posts/euler-identity/</guid>
       <description>Exploring the famous equation e^{iπ} + 1 = 0 and its significance.</description>
     </item>
   </channel>

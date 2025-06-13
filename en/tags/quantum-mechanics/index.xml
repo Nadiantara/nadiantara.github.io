@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Quantum Mechanics on Limits &amp; Matrices</title>
-    <link>http://localhost:1313/en/tags/quantum-mechanics/</link>
+    <link>https://nadiantara.github.io/en/tags/quantum-mechanics/</link>
     <description>Recent content in Quantum Mechanics on Limits &amp; Matrices</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 12 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/tags/quantum-mechanics/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nadiantara.github.io/en/tags/quantum-mechanics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Understanding Schrödinger&#39;s Equation</title>
-      <link>http://localhost:1313/en/posts/schrodinger-equation/</link>
+      <link>https://nadiantara.github.io/en/posts/schrodinger-equation/</link>
       <pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/schrodinger-equation/</guid>
+      <guid>https://nadiantara.github.io/en/posts/schrodinger-equation/</guid>
       <description>A brief introduction to the fundamental equation of quantum mechanics.</description>
     </item>
   </channel>
